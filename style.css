@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+ .inp{
+    border: solid;
+    padding: 50px;
+    border-radius: 20px;
+    align-items: center;
+}
