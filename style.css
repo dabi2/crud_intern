@@ -1,10 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
   }
-
+#todo_text{
+    padding: 10px;
+}
+#disp{
+    padding: 10px;
+}
+/* #inpt{
+    position: absolute;
+    left: 100px;
+} */
  .inp{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+ 
     border: solid;
     padding: 50px;
     border-radius: 20px;
     align-items: center;
+}
+.display_text{
+    position: absolute;
+    top: 220px;
+    left: 500px;
+     
+    border: solid;
+    padding: 50px;
+    border-radius: 20px;
+    align-items: center;
+}
+ul li{
+    border: solid;
+    list-style:none;
+    cursor: pointer;
+    padding: 12px;  
+}
+/* #task_list{
+    list-style:none;
+    cursor: pointer;
+    padding: 12px 8px 12px 50px;
+} */
+ul li.check{
+    color:#555;
+    text-decoration: line-through;
 }
